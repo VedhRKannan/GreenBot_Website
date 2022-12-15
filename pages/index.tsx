@@ -90,8 +90,8 @@ export default function Home() {
               style={{
                 display: "flex",
                 alignItems: "left",
-                marginLeft: "100px",
-                marginTop: "100px",
+                marginLeft: "500px",
+                marginTop: "-400px",
                 height: "15vh",
               }}
             >
@@ -101,21 +101,83 @@ export default function Home() {
             <h2
               className={styles.image}
               style={{
+                marginLeft: "445px",
                 marginTop: "-70px",
               }}
             >
               {/* Make img smaller*/}
               <img
-                src="pages/ann.jpg"
+                src="ann.png"
                 alt="Neural Network"
-                width="300px"
-                height="300px"
+                width="320px"
+                height="320px"
               />
             </h2>
+            <div>
+              <h2
+                style={{
+                  display: "flex",
+                  alignItems: "left",
+                  marginLeft: "900px",
+                  marginTop: "-425px",
+                  height: "15vh",
+                }}
+              >
+                {" "}
+                Soil Moisture Detection{" "}
+              </h2>
+              <h2
+                className={styles.image}
+                style={{
+                  marginTop: "-70px",
+                  marginLeft: "875px",
+                }}
+              >
+                {/* Make img smaller*/}
+                <img
+                  src="soil.jpg"
+                  alt="Soil Moisture"
+                  width="300px"
+                  height="300px"
+                />
+              </h2>
+              <div>
+                <h2
+                  style={{
+                    display: "flex",
+                    alignItems: "left",
+                    marginLeft: "1350px",
+                    marginTop: "-403px",
+                    height: "15vh",
+                  }}
+                >
+                  {" "}
+                  Food Dispension{" "}
+                </h2>
+                <h2
+                  className={styles.image}
+                  style={{
+                    marginTop: "-70px",
+                    marginLeft: "1300px",
+                  }}
+                >
+                  {/* Make img smaller*/}
+                  <img
+                    src="food.jpg"
+                    alt="Plant Food"
+                    width="300px"
+                    height="300px"
+                  />
+                </h2>
+              </div>
+            </div>
           </div>
         </>
       </>
-      <div className={styles.footer} style={{ marginTop: "-30px" }}>
+      <div
+        className={styles.footer}
+        style={{ marginTop: "30px", textEmphasis: "bold" }}
+      >
         <a href="https://www.vedhkannan.com"> About me... </a>
       </div>
     </>
