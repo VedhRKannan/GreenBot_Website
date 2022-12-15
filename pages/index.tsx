@@ -1,8 +1,9 @@
-import React from 'react'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import React from "react";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+//This is the Home page
+
 export default function Home() {
-  // make a login page
   return (
     <>
       <>
@@ -14,20 +15,23 @@ export default function Home() {
                   <>
                     <div
                       style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
                       }}
                     >
                       <h1
                         style={{
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center',
-                          height: '15vh',
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          color: "#50C878",
+                          fontSize: "50px",
+                          borderBottom: "5px solid #50C878",
+                          height: "8vh",
                         }}
                       >
-                        {' '}
+                        {" "}
                         GreenBot 🪴
                       </h1>
                     </div>
@@ -37,52 +41,47 @@ export default function Home() {
 
               <div
                 style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  height: '15vh',
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  height: "25vh",
                 }}
               ></div>
             </>
           </>
-          <div className={styles.card}>
-            <p
+          <div>
+            <h4 className={styles.description} style={{ marginTop: "-200px" }}>
+              {" "}
+              GreenBot is a plantcare device capable of automating tasks that
+              could take farmers and gardeners hours to complete! These tasks
+              include:{" "}
+            </h4>
+          </div>
+          <div>
+            <h2
               style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                textAlign: 'center',
-                height: '15vh',
+                display: "flex",
+                alignItems: "left",
+                marginLeft: "100px",
+                marginTop: "100px",
+                height: "15vh",
               }}
             >
-              {' '}
-              GreenBot is a plantcare machine capable of automating tasks that
-              could take farmers and gardeners hours to complete!These tasks
-              include:{' '}
-            </p>
-            <ul
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                height: '20vh',
-              }}
-            >
-              <li>Watering plants</li>
-              <li>Pruning plants</li>
-            </ul>
+              {" "}
+              Watering{" "}
+            </h2>
+            <h2 className={styles.image} style={{ marginTop: "-30px" }}>
+              <img src="/watering.png" alt="Plant being watered" />
+            </h2>
           </div>
         </>
       </>
-      <div className={styles.footer}>
-        <a className={styles.card} href="https://www.vedhkannan.com">
-          {' '}
-          More about me...{' '}
-        </a>
+      <div className={styles.footer} style={{ marginTop: "-30px" }}>
+        <a href="https://www.vedhkannan.com"> About me... </a>
       </div>
     </>
-  )
+  );
 }
 {
-  ;(' ')
+  (" ");
 }

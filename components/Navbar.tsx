@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Navbar = () => (
   <nav className={styles.navbar}>
-    <Link className={styles.card} href="/home" style={{ marginTop: "-2px" }}>
+    <Link className={styles.card} href="/" style={{ marginTop: "-2px" }}>
       Home
     </Link>
     <Link className={styles.card} href="/ML" style={{ marginTop: "-2px" }}>

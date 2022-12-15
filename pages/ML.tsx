@@ -7,7 +7,18 @@ const ML = () => (
     <title>ML</title>
     <>
       <div className={styles.container}>
-        <h1 className={styles.title}>✨Machine Learning✨</h1>
+        <h1
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            color: "#50C878",
+            fontSize: "50px",
+            height: "8vh",
+          }}
+        >
+          ✨Machine Learning✨
+        </h1>
       </div>
       <div
         style={{
