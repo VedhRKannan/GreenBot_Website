@@ -70,8 +70,47 @@ export default function Home() {
               {" "}
               Watering{" "}
             </h2>
-            <h2 className={styles.image} style={{ marginTop: "-30px" }}>
-              <img src="/watering.png" alt="Plant being watered" />
+            <h2
+              className={styles.image}
+              style={{
+                marginTop: "-70px",
+              }}
+            >
+              {/* Make img smaller*/}
+              <img
+                src="watering.jpg"
+                alt="Plant being watered"
+                width="300px"
+                height="300px"
+              />
+            </h2>
+          </div>
+          <div>
+            <h2
+              style={{
+                display: "flex",
+                alignItems: "left",
+                marginLeft: "100px",
+                marginTop: "100px",
+                height: "15vh",
+              }}
+            >
+              {" "}
+              Disease Detection{" "}
+            </h2>
+            <h2
+              className={styles.image}
+              style={{
+                marginTop: "-70px",
+              }}
+            >
+              {/* Make img smaller*/}
+              <img
+                src="pages/ann.jpg"
+                alt="Neural Network"
+                width="300px"
+                height="300px"
+              />
             </h2>
           </div>
         </>
