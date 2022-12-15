@@ -80,11 +80,11 @@
   border-bottom: 1px solid #9e9999;
 }
 
-.navbar:hover {
+/* .navbar:hover {
   color: #50C878;
   font-size: large;
   font-weight: bold;
-}
+} */
 
 
 .login {
@@ -128,7 +128,6 @@
   max-width: 300px;
   margin: 0 auto;
   margin-top: 60px;
-  height: auto;
 }
 
 .card:hover,
