@@ -79,6 +79,14 @@
   padding: 0 2rem;
   border-bottom: 1px solid #9e9999;
 }
+
+.navbar:hover {
+  color: #50C878;
+  font-size: large;
+  font-weight: bold;
+}
+
+
 .login {
   display: flex;
   flex-direction: column;
