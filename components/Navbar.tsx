@@ -8,8 +8,12 @@ const Navbar = () => (
     <Link className={styles.card} href="/" style={{ marginTop: "-2px" }}>
       Home
     </Link>
-    <Link className={styles.card} href="/ML" style={{ marginTop: "-2px" }}>
-      ML
+    <Link
+      className={styles.card}
+      href="/software"
+      style={{ marginTop: "-2px" }}
+    >
+      Software
     </Link>
     <Link
       className={styles.card}

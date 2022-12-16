@@ -8,17 +8,25 @@ export default function Hardware() {
       <>
         <title>Hardware</title>
       </>
-      <div className={styles.card}>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
         <h1
           style={{
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            height: "15vh",
+            color: "#50C878",
+            fontSize: "50px",
+            height: "8vh",
           }}
         >
           {" "}
-          🤖Hardware🤖{" "}
+          Hardware 🤖
         </h1>
       </div>
     </>
