@@ -41,6 +41,12 @@ export default function Login() {
         <input type="text" placeholder="Password" /> <br />
         <button onClick={SpecialClick}>Login</button>
       </div>
+      <div
+        className={styles.footer}
+        style={{ marginTop: "330px", fontWeight: "bold" }}
+      >
+        <a href="https://www.vedhkannan.com"> About me... </a>
+      </div>
     </>
   );
 }

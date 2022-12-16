@@ -53,8 +53,8 @@ export default function Home() {
             <h4 className={styles.description} style={{ marginTop: "-200px" }}>
               {" "}
               GreenBot is a plantcare device capable of automating tasks that
-              could take farmers and gardeners hours to complete! These tasks
-              include:{" "}
+              could take farmers and gardeners hours to complete! <br />
+              These tasks include:{" "}
             </h4>
           </div>
           <div>
@@ -68,7 +68,7 @@ export default function Home() {
               }}
             >
               {" "}
-              Watering{" "}
+              Irrigation{" "}
             </h2>
             <h2
               className={styles.image}
@@ -176,7 +176,7 @@ export default function Home() {
       </>
       <div
         className={styles.footer}
-        style={{ marginTop: "30px", fontWeight: "bold" }}
+        style={{ marginTop: "-10px", fontWeight: "bold" }}
       >
         <a href="https://www.vedhkannan.com"> About me... </a>
       </div>

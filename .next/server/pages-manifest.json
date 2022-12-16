@@ -2,5 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/hardware": "pages/hardware.js",
+  "/": "pages/index.js",
+  "/login": "pages/login.js",
   "/software": "pages/software.js"
 }
