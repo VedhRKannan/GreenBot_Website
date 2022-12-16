@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Login() {
   const SpecialClick = () => {
-    window.location.href = "https://youtu.be/dQw4w9WgXcQ";
+    window.open("https://youtu.be/dQw4w9WgXcQ", "_blank");
   };
 
   return (
@@ -45,7 +45,10 @@ export default function Login() {
         className={styles.footer}
         style={{ marginTop: "330px", fontWeight: "bold" }}
       >
-        <a href="https://www.vedhkannan.com"> About me... </a>
+        <a href="https://www.vedhkannan.com" target="_blank">
+          {" "}
+          About me...{" "}
+        </a>
       </div>
     </>
   );

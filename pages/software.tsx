@@ -88,7 +88,10 @@ const Software = () => (
         className={styles.footer}
         style={{ marginTop: "80px", fontWeight: "bold" }}
       >
-        <a href="https://www.vedhkannan.com"> About me... </a>
+        <a href="https://www.vedhkannan.com" target="_blank">
+          {" "}
+          About me...{" "}
+        </a>
       </div>
     </>
   </>
