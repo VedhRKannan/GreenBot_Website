@@ -176,7 +176,7 @@ export default function Home() {
       </>
       <div
         className={styles.footer}
-        style={{ marginTop: "30px", textEmphasis: "bold" }}
+        style={{ marginTop: "30px", fontWeight: "bold" }}
       >
         <a href="https://www.vedhkannan.com"> About me... </a>
       </div>
