@@ -28,6 +28,14 @@ const Software = () => (
           height: "15vh",
         }}
       >
+        <pre className="line-numbers">
+          <code
+            className="language-python"
+            style={{ marginLeft: "100px", marginTop: "" }}
+          >
+            print("Hello World")
+          </code>
+        </pre>
         <div className={styles.description}>
           <h4>
             {" "}
